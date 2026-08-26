@@ -1,0 +1,6 @@
+
+select * from customer limit 20
+--What
+select gender, SUM(purchase_amount) as revenue
+from customer
+group by gender
